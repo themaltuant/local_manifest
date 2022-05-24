@@ -4,7 +4,7 @@
  	<remote  name="blz-d" fetch="https://github.com/ProjectBlaze-Devices" />
 	<remote  name="ad" fetch="https://github.com/arrowOS-Devices" />
  
-  	<project path="device/asus/X00T" name="android_device_asus_X00T" revision="12.1" remote="blz-d"/>	
+  	<project path="device/asus/X00T" name="device_asus_X00T" revision="12.1" remote="blz-d"/>	
 	<project path="kernel/asus/sdm660" name="kernel_asus_sdm660" revision="r7/hmp" remote="lh" />
 	<project path="vendor/asus" name="android_vendor_asus_X00T" revision="arrow-12.1" remote="ad" />
  
