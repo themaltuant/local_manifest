@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote  name="lh" fetch="https://github.com/poco-x3p" />
- 	<remote  name="blz-d" fetch="https://github.com/project-awaken" />
+ 	<remote  name="blz-d" fetch="https://github.com/themaltuant" />
 	<remote  name="ad" fetch="https://github.com/raghavt20" />
 	<remote  name="p404-b" fetch="https://github.com/p404-vayu/" />
 	 
