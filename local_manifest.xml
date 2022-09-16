@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote  name="lh" fetch="https://github.com/clhexx00tlab" />
- 	<remote  name="blz-d" fetch="https://github.com/ProjectBlaze-Devices" />
-	<remote  name="ad" fetch="https://github.com/arrowOS-Devices" />
- 
-  	<project path="device/asus/X00T" name="device_asus_X00T" revision="12.1" remote="blz-d"/>	
-	<project path="kernel/asus/sdm660" name="kernel_asus_sdm660" revision="r7/hmp" remote="lh" />
-	<project path="vendor/asus" name="android_vendor_asus_X00T" revision="arrow-12.1" remote="ad" />
+	<remote  name="lh" fetch="https://github.com/poco-x3p" />
+ 	<remote  name="blz-d" fetch="https://github.com/project-awaken" />
+	<remote  name="ad" fetch="https://github.com/raghavt20" />
+	<remote  name="p404-b" fetch="https://github.com/p404-vayu/" />
+	 
+  	<project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" revision="12.1" remote="blz-d"/>	
+	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="12.1" remote="lh" />
+	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" revision="12.1" remote="ad" />
+ 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="shinka" remote="p404-b" />
  
 </manifest>
