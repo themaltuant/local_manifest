@@ -5,7 +5,15 @@
 	<remote  name="ad" fetch="https://github.com/raghavt20" />
 	<remote  name="p404-b" fetch="https://github.com/p404-vayu/" />
 	 
-  	<project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" revision="12.1" remote="blz-d"/>	
+        <remove-project name="LineageOS/android_packages_apps_DeskClock" />
+	<project path="packages/apps/DeskClock" name="ArrowOS/android_packages_apps_DeskClock" remote="github" revision="arrow-13.1" />
+	<remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+	<project path="packages/apps/ExactCalculator" name="ArrowOS/android_packages_apps_ExactCalculator" remote="github" revision="arrow-13.1" />
+	<remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
+	<project path="packages/apps/DocumentsUI" name="RiceDroid/android_packages_apps_DocumentsUI" remote="github" revision="twelve" />
+	
+	
+	<project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" revision="12.1" remote="blz-d"/>	
 	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="12.1" remote="lh" />
 	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" revision="12.1" remote="ad" />
  	<project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="shinka" remote="p404-b" />
