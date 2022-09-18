@@ -7,9 +7,9 @@
 	<remote  name="p404-gitlab" fetch="https://gitlab.com/project-404" />
 
         <remove-project name="LineageOS/android_packages_apps_DeskClock" />
-	<project path="packages/apps/DeskClock" name="ArrowOS/android_packages_apps_DeskClock" remote="github" revision="arrow-13.1" />
+	<project path="packages/apps/DeskClock" name="ArrowOS/android_packages_apps_DeskClock" remote="github" revision="arrow-12.1" />
 	<remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
-	<project path="packages/apps/ExactCalculator" name="ArrowOS/android_packages_apps_ExactCalculator" remote="github" revision="arrow-13.1" />
+	<project path="packages/apps/ExactCalculator" name="ArrowOS/android_packages_apps_ExactCalculator" remote="github" revision="arrow-12.1" />
 	<remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
 	<project path="packages/apps/DocumentsUI" name="RiceDroid/android_packages_apps_DocumentsUI" remote="github" revision="twelve" />
 	<remove-project name="LineageOS/android_packages_apps_Gallery2" />
