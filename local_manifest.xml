@@ -1,34 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote  name="lh" fetch="https://github.com/poco-x3p" />
- 	<remote  name="blz-d" fetch="https://github.com/themaltuant" />
+ 	<remote  name="blz-d" fetch="https://github.com/clhexftw" />
 	<remote  name="ad" fetch="https://github.com/raghavt20" />
 	<remote  name="p404-b" fetch="https://github.com/p404-vayu/" />
 	<remote  name="p404-gitlab" fetch="https://gitlab.com/project-404" />
-<!--
-        <remove-project name="LineageOS/android_packages_apps_DeskClock" />
-	<project path="packages/apps/DeskClock" name="ArrowOS/android_packages_apps_DeskClock" remote="github" revision="arrow-12.1" />
-	<remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
-	<project path="packages/apps/ExactCalculator" name="ArrowOS/android_packages_apps_ExactCalculator" remote="github" revision="arrow-12.1" />
-	<remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
-	<project path="packages/apps/DocumentsUI" name="RiceDroid/android_packages_apps_DocumentsUI" remote="github" revision="twelve" />
-	<remove-project name="LineageOS/android_packages_apps_Gallery2" />
-	<project path="packages/apps/Gallery2" name="Project-Kaleidoscope/android_packages_apps_Gallery2" remote="github" revision="sunflowerleaf" />
--->	
-	
-	<remove-project name="android_vendor_gms" />
-	<project path="vendor/gms" name="proprietary_vendor_gms" revision="shinka" remote="p404-gitlab"/>	
-	
-	<remove-project name="android_vendor_awaken" />
-	<project path="vendor/awaken" name="android_vendor_awaken" revision="12.1" remote="blz-d"/>
-	
-	<remove-project name="android_frameworks_base" />
-	<project path="frameworks/base" name="android_frameworks_base" remote="blz-d" revision="12.1" />
-	
-	
-	<project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" revision="12.1" remote="blz-d"/>	
-	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="12.1" remote="lh" />
-	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" revision="12.1" remote="ad" />
- 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="shinka" remote="p404-b" />
- 
+
+	<project path="device/asus/X00T" name="device_asus_X00T" revision="arrow-13.0" remote="blz-d"/>	
+	<project path="vendor/asus/X00T" name="vendor_xiaomi_X00T" revision="arrow-13.0" remote="blz-d" />
+	<project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="blz-d" revision="arrow-13.0" />
+
 </manifest>
