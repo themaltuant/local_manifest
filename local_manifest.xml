@@ -5,7 +5,7 @@
 	<remote  name="ad" fetch="https://github.com/raghavt20" />
 	<remote  name="p404-b" fetch="https://github.com/p404-vayu/" />
 	<remote  name="p404-gitlab" fetch="https://gitlab.com/project-404" />
-
+<!--
         <remove-project name="LineageOS/android_packages_apps_DeskClock" />
 	<project path="packages/apps/DeskClock" name="ArrowOS/android_packages_apps_DeskClock" remote="github" revision="arrow-12.1" />
 	<remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
@@ -14,11 +14,13 @@
 	<project path="packages/apps/DocumentsUI" name="RiceDroid/android_packages_apps_DocumentsUI" remote="github" revision="twelve" />
 	<remove-project name="LineageOS/android_packages_apps_Gallery2" />
 	<project path="packages/apps/Gallery2" name="Project-Kaleidoscope/android_packages_apps_Gallery2" remote="github" revision="sunflowerleaf" />
+-->	
 	
-	<!--
 	<remove-project name="android_vendor_gms" />
 	<project path="vendor/gms" name="proprietary_vendor_gms" revision="shinka" remote="p404-gitlab"/>	
-	-->
+	
+	<remove-project name="android_vendor_awaken" />
+	<project path="vendor/awaken" name="android_vendor_awaken" revision="12.1" remote="blz-d"/>
 	
 	<remove-project name="android_frameworks_base" />
 	<project path="frameworks/base" name="android_frameworks_base" remote="blz-d" revision="12.1" />
