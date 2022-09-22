@@ -7,7 +7,7 @@
 	<remote  name="p404-gitlab" fetch="https://gitlab.com/project-404" />
 
 	<project path="device/asus/X00T" name="device_asus_X00T" revision="arrow-13.0" remote="blz-d"/>	
-	<project path="vendor/asus/X00T" name="vendor_xiaomi_X00T" revision="arrow-13.0" remote="blz-d" />
+	<project path="vendor/asus/X00T" name="vendor_asus_X00T" revision="arrow-13.0" remote="blz-d" />
 	<project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="blz-d" revision="arrow-13.0" />
 
 </manifest>
