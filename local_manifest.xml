@@ -25,6 +25,9 @@
 	<remove-project name="android_frameworks_base" />
 	<project path="frameworks/base" name="android_frameworks_base" remote="blz-d" revision="12.1" />
 	
+	<remove-project name="android_packages_apps_Settings" />
+	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="blz-d" revision="12.1" />
+	
 	<remove-project name="android_packages_apps_ThemePicker" />
 	<project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="blz-d" revision="12.1" />
 	
